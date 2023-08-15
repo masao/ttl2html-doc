@@ -31,7 +31,7 @@ With this configuration file, you can execute a command on the dataset file(s) :
 The command parses the dataset file(s) and generate HTML files.
 
 
-Commandline options
+Command line options
 -------------------
 
 .. code-block:: console
