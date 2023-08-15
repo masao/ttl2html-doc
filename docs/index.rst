@@ -5,7 +5,7 @@ Welcome to ttl2html documentation!
 
 This tool accepts RDF/Turtle format as input to generate the corresponding HTML files.
 
-The Linked Data Principle [TBL2006]_ suggests that identifying things as HTTP URIs (resources) and resolving them on the Web is important.
+The Linked Data Principle [TBL_2006]_ suggests that identifying things as HTTP URIs (resources) and resolving them on the Web is important.
 This tool helps to generate a website for a Linked Data dataset and publish it on the Web.
 
 Check out the :doc:`usage` and :doc:`configuration` section for further information, including
