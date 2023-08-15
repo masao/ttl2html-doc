@@ -1,12 +1,14 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to ttl2html documentation!
+==================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**ttl2html** is a static site generator for Linked Data.
 
-Check out the :doc:`usage` section for further information, including
+This tool accepts RDF/Turtle format as input to generate the corresponding HTML files.
+
+`The Linked Data Principle <https://www.w3.org/DesignIssues/LinkedData.html>` suggests that identifying things as HTTP URIs (resources) and resolving them on the Web is important.
+This tool helps to generate a website for a Linked Data dataset and publish it on the Web.
+
+Check out the :doc:`usage` and :doc:`configuration` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
@@ -19,4 +21,4 @@ Contents
 .. toctree::
 
    usage
-   api
+   configuration
