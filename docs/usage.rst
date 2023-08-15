@@ -32,7 +32,7 @@ The command parses the dataset file(s) and generate HTML files.
 
 
 Command line options
--------------------
+--------------------
 
 .. code-block:: console
    

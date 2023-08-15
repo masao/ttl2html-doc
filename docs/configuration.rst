@@ -16,6 +16,9 @@ The example below is a basic configuration for ttl2html:
   title_property: http://example.org/title
   top_class: http://schema.org/Book
 
+Configuration parameters
+------------------------
+
 All configuration keys available are documeted as follows:
 
 * ``about_file``: Specified filename is used for documenting schemas of the dataset. It requires SHACL documentation within the dataset. By default, the filename ``about.html`` is used.
