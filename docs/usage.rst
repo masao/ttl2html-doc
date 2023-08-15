@@ -6,29 +6,38 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use ttl2html, first install it using Rubygems:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ gem install ttl2html
 
-Creating recipes
-----------------
+Command line usage
+------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+First, you must create a configuration file named ``config.yml`` with a YAML format.
+One required key for the configuration is ``base_uri``:
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: YAML
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+   base_uri: https://www.example.org/
 
-.. autoexception:: lumache.InvalidKindError
+With this configuration file, you can execute a command on the dataset file(s) :
 
-For example:
+.. code-block:: console
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   ttl2html dataset.ttl
 
+The command parses the dataset file(s) and generate HTML files.
+
+
+Commandline options
+-------------------
+
+.. code-block:: console
+   
+   ttl2html --config test.yml dataset.ttl
+
+The command ``ttl2html`` accepts the following options:
+
+* ``--config file``: Read the configuration file from file (Default: ``config.yml``).
