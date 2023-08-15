@@ -5,7 +5,7 @@ Welcome to ttl2html documentation!
 
 This tool accepts RDF/Turtle format as input to generate the corresponding HTML files.
 
-`The Linked Data Principle <https://www.w3.org/DesignIssues/LinkedData.html>` suggests that identifying things as HTTP URIs (resources) and resolving them on the Web is important.
+The Linked Data Principle [TBL2006]_ suggests that identifying things as HTTP URIs (resources) and resolving them on the Web is important.
 This tool helps to generate a website for a Linked Data dataset and publish it on the Web.
 
 Check out the :doc:`usage` and :doc:`configuration` section for further information, including
@@ -22,3 +22,17 @@ Contents
 
    usage
    configuration
+
+See also
+--------
+
+There is another tool **xlsx2shape** to describe a dataset schema using SHACL.
+See :doc:`xlsx2shape` for details.
+
+This tool is based on experiences from publishing Japanese Textbook LOD dataset [JP-TEXTBOOK_2017]_.
+
+References
+----------
+
+.. [TBL_2006] Tim-Berner Lee (2006). "Linked Data". https://www.w3.org/DesignIssues/LinkedData.html
+.. [JP-TEXTBOOK_2017] Y. Egusa & M. Takaku (2017). "Japanese Textbook LOD". https://w3id.org/jp-textbook/

@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'ttl2html'
+copyright = '2023, Masao Takaku'
+author = 'Masao Takaku'
 
-release = '0.1'
-version = '0.1.0'
+# release = '0.1'
+# version = '0.1'
 
 # -- General configuration
 
