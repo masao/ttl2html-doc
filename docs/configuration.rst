@@ -28,11 +28,11 @@ All configuration keys available are documeted as follows:
   .. code-block:: YAML
 
     breadcrumbs:
-    - property: http://schema.org/hasPart
+      - property: http://schema.org/hasPart
         inverse: true
         label: https://w3id.org/jp-cos/sectionNumber
-    - property: https://w3id.org/jp-cos/courseOfStudy
-    - property:
+      - property: https://w3id.org/jp-cos/courseOfStudy
+      - property:
         - property: http://schema.org/workExample
         - property: http://schema.org/isPartOf
 
@@ -46,7 +46,7 @@ All configuration keys available are documeted as follows:
 
   .. code-block:: YAML
 
-  google_custom_search_id: 0123456789
+    google_custom_search_id: 0123456789
 
 * ``javascript_file``: The path of the JavaScript file to use locally.
 * ``labels``: Mappings for the custom property labels.
@@ -56,15 +56,15 @@ All configuration keys available are documeted as follows:
 
   .. code-block:: YAML
 
-  navbar_class: navbar-dark bg-dark
+    navbar_class: navbar-dark bg-dark
 
 * ``ogp``: Specify [OGP (Open Graph Protocol)](https://ogp.me) settings if you have additional logo settings for social networking sites, etc. You can specify ``ogp:image``, ``ogp:type``, etc.
 
   .. code-block:: YAML
 
-  ogp:
-    image: https://example.org/logo2.png
-    type: article
+    ogp:
+      image: https://example.org/logo2.png
+      type: article
 
 * ``output_dir``: Output directory for the dataset.
 * ``output_turtle``: Whether to output the RDF/Turtle format file corresponding to each resource URI, as ``true`` / ``false``. Default is ``true`` (i.e. output RDF/Turtle format files).
@@ -72,9 +72,9 @@ All configuration keys available are documeted as follows:
 
   .. code-block:: YAML
 
-  shape_orders:
-    - https://example.org/ItemShape
-    - https://example.org/BookShape
+    shape_orders:
+      - https://example.org/ItemShape
+      - https://example.org/BookShape
 
 * ``site_title``: Main title for the whole website.
 * ``template_dir``: Local template directory to find a template file. Default template files are available at [here](https://github.com/masao/ttl2html/tree/master/templates). To overwrite the contents of the original template, copy the original file to the directory specified here and rewrite it.
