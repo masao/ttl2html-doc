@@ -1,9 +1,6 @@
 Dataset information
 ===================
 
-Dataset information
-===================
-
 In ``ttl2html``, you can include details about the entire dataset (e.g., title, author, release date, data size) in RDF format and input it into this tool. The tool then displays this information on the main and about pages, providing a clear overview for users who are about to utilize the dataset.
 
 The dataset metadata expected by this tool is structured as described below. Metadata about the dataset consists of three main parts: overall dataset metadata, contact information, and version history information. The model diagram illustrating the basic data structure is shown below:
