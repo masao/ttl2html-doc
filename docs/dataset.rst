@@ -5,7 +5,7 @@ In ``ttl2html``, you can include details about the entire dataset (e.g., title, 
 
 The dataset metadata expected by this tool is structured as described below. Metadata about the dataset consists of three main parts: overall dataset metadata, contact information, and version history information. The model diagram illustrating the basic data structure is shown below:
 
-.. image:: images/dataset-model.png
+.. image:: dataset-model.png
 
 The following table lists the metadata vocabularies and their namespaces used in the data model diagram above and throughout the following descriptions:
 
