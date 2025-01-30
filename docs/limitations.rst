@@ -13,6 +13,7 @@ As a result, URI structures that specify parts of a URI resource using a hash sy
 Similarly, URI structures that specify resources as parameters using a question mark (?), such as https://example.org/resource?id=1, are also not supported and should be avoided.
 
 Additionally, a URI structure includes URI resources that end with a slash (/) and those that do not. In that case, it becomes difficult to distinguish them on a static website, and thus, they are not supported. For example:
+
 * https://example.org/foo
 * https://example.org/foo/
 
