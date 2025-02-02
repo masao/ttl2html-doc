@@ -1,7 +1,7 @@
 Profile Description Using Shapes
 ================================
 
-RDF shapes are a formal language for describing the model contents of RDF data. Two common shape description languages are ShEx (Shape Expressions) and SHACL (Shapes Constraint Language).
+RDF shapes are a formal language for describing the model contents of RDF data. Two common shape description languages are `ShEx (Shape Expressions) <https://shex.io/>`_ and `SHACL (Shapes Constraint Language) <https://www.w3.org/TR/shacl/>`_.
 By using ShEx or SHACL, you can verify whether an RDF dataset is correctly structured and provide a detailed description of its contents.
 
 **ttl2html** supports only SHACL, providing two key functions:
@@ -63,7 +63,7 @@ Explaining Property Description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``sh:name`` is the name of the property. On the resource page, the value of sh:name is used as the property name.
-If you add a language tag such as ``@ja`` or ``@en`` to the literal, it will specify that the description will be written differently for each language, and the content in the language matching the site's :confval:`locale`` will be used.
+If you add a language tag such as ``@ja`` or ``@en`` to the literal, it will specify that the description will be written differently for each language, and the content in the language matching the site's :confval:`locale` will be used.
 
 ``skos:example`` gives an example value for that property.
 
@@ -73,7 +73,7 @@ When generating the page in HTML, you can embed HTML directly in the RDF to incl
 ``sh:order`` specifies the order of the properties.
 This order is used to output the properties when generating the description and the pages corresponding to specific resources.
 
-The above profile description is also output as a vocabulary description table in ``about.html`` (you can specify the file name with :confval:`about_file`) to make it easier for users of the data model to understand.
+The above profile description is also output as a vocabulary description table in ``about.html`` (you can change the file name with :confval:`about_file`) to make it easier for users of the data model to understand.
 
 The following figure shows an example of the shape description above written out:
 
