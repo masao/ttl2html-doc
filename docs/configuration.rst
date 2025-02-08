@@ -105,7 +105,7 @@ All configuration keys available are documeted as follows:
 
   If you need to change the label for each class, use the :confval:`labels_with_class` setting or the :doc:`shape method <shapes>`.
 
-  If you do not specify a name for the property using these settings (default), the string at the end of the property URI will be displayed in uppercase.
+  If you do not specify a name for the property using these settings (default), the string at the end of the property URI with the first letter capitalized will be displayed.
 
   For example, ``dct:description`` will be displayed as "Description," and ``schema:name`` will be displayed as "Name".
 
