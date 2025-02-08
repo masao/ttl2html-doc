@@ -96,12 +96,12 @@ All configuration keys available are documeted as follows:
   Specify the custom label name for each property.
   Specify the property URI as the key and the label name as the value.
   
-  For example, the following setting specifies that the ``dct:description`` property should be displayed as "Item Details":
+  For example, the following setting specifies that the ``dct:description`` property should be displayed as "Item details":
 
   .. code:: yaml
 
     labels:
-      http://purl.org/dc/terms/description: Item Details
+      http://purl.org/dc/terms/description: Item details
 
   If you need to change the label for each class, use the :confval:`labels_with_class` setting or the :doc:`shape method <shapes>`.
 
@@ -116,7 +116,7 @@ All configuration keys available are documeted as follows:
 
   The name is specified with the class URI as the key and each property URI and its name as the value.
 
-  For example, in the following example, the ``dct:description`` property is represented as ``detailed text'' for resources of the ``ex:Item`` class, and ``ex:Work`` for resources of the ``ex:Work`` class:
+  For example, in the following example, the ``dct:description`` property is represented as "detailed text" for resources of the ``ex:Item`` class, and "Item details" for resources of the ``ex:Work`` class:
 
   .. code:: yaml
 
