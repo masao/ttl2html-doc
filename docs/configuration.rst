@@ -128,7 +128,7 @@ All configuration keys available are documeted as follows:
 
   There is a method for more detailed labeling, :doc:`using shapes <shapes>`.
 
-  Also, if you don't need to distinguish between classes, specify it using the :conval:`labels` setting.
+  Also, if you don't need to distinguish between classes, specify it using the :confval:`labels` setting.
 
 .. confval:: locale
   :default: ``en``
