@@ -103,7 +103,7 @@ All configuration keys available are documeted as follows:
     labels:
       http://purl.org/dc/terms/description: Item Details
 
-  If you need to change the notation for each class, use the :confval:`labels_with_class` setting or the :doc:`shape method <shapes>`.
+  If you need to change the label for each class, use the :confval:`labels_with_class` setting or the :doc:`shape method <shapes>`.
 
   If you do not specify a name for the property using these settings (default), the string at the end of the property URI will be displayed in uppercase.
 
