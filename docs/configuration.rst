@@ -89,7 +89,21 @@ All configuration keys available are documeted as follows:
 
 .. confval:: javascript_file
   
-  The path of the JavaScript file to use locally.
+  The path of the custom JavaScript file to use.
+  You can specify either a single file or multiple files:
+
+  .. code-block:: YAML
+    :caption: Specifying a single JavaScript file
+
+    javascript_file: public/script.js
+
+  .. code-block:: YAML
+    :caption: Specifying multiple JavaScript files
+
+    javascript_file:
+      - lib/jquery.min.js
+      - lib/d3.min.js
+      - custom.js
 
 .. confval:: labels
   
