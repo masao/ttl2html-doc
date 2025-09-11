@@ -65,7 +65,21 @@ All configuration keys available are documeted as follows:
 
 .. confval:: css_file
   
-  The path of the CSS stylesheet file to use locally.
+  The path of the CSS stylesheet file(s) to use.
+  You can specify either a single file or multiple files:
+
+  .. code-block:: YAML
+    :caption: Specifying a single file
+
+    css_file: style.css
+
+  .. code-block:: YAML
+    :caption: Specifying multiple files
+
+    css_file:
+      - reset.css
+      - layout.css
+      - theme.css
 
 .. confval:: custom_css
   
@@ -89,7 +103,7 @@ All configuration keys available are documeted as follows:
 
 .. confval:: javascript_file
   
-  The path of the custom JavaScript file to use.
+  The path of the custom JavaScript file(s) to use.
   You can specify either a single file or multiple files:
 
   .. code-block:: YAML
