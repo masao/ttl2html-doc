@@ -83,7 +83,12 @@ All configuration keys available are documeted as follows:
 
 .. confval:: custom_css
   
-  Specify the code snippet of the CSS stylesheet (e.g. ``nav.navbar {background-color: pink}``).
+  Specify the code snippet of the CSS stylesheet.
+
+  .. code-block:: YAML
+    :caption: Example of `custom_css` setting
+
+    custom_css: "nav.navbar { background-color: pink }"
 
 .. confval:: google_analytics
   
