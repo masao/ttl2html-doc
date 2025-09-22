@@ -223,7 +223,7 @@ All configuration keys available are documeted as follows:
 .. confval:: subtitle_property
 
   Specifies the property to be used globally (common to all classes) as a `subtitle`.
-  While the title is usually displayed in the header of an individual resource, there are times when you may want to include additional information (e.g., volume number, edition, date, title, etc.) as a subtitle on the same or following line.
+  While the title (settings from :confval:`title_property` or :confval:`title_property_perclass`) is usually displayed in the header of an individual resource, there are times when you may want to include additional information (e.g., volume number, edition, date, title, etc.) as a subtitle on the same or following line.
 
   :confval:`subtitle_property` and :confval:`subtitle_property_perclass` are settings that control which property value is used for the subtitle.
 
