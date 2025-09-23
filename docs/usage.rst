@@ -47,14 +47,14 @@ During execution, messages such as ``loading <path>...`` are printed to
 standard error. After loading, the number of triples and subjects is shown: ``<N> triples. <M> subjects.``
 
 Supported format
-----------------
+^^^^^^^^^^^^^^^^
 
 - Only the **Turtle** format is supported.
 - Even if the file extension is not ``.ttl``, the file content **must** be Turtle.
 - Other formats such as RDF/XML or N-Triples are **not supported**.
 
 Multiple files
---------------
+^^^^^^^^^^^^^^
 
 If multiple files are provided, they are merged into a single internal dataset.
 When merging, all the values are appended for the same subject and predicate, and **duplicates are not removed.**
