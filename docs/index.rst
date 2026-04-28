@@ -27,6 +27,7 @@ Contents
    contact
 
 .. toctree::
+   :maxdepth: 1
    :caption: Command line tools
 
    catttl
