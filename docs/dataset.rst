@@ -22,14 +22,13 @@ The table below lists the metadata vocabularies and their namespaces used in the
    :header:  "Metadata vocabulary", "Prefix", "Namespace URI"
    :widths: auto
 
-   `DCMI Metadata Terms <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/>`_, dct:, http://purl.org/dc/terms/
-   `RDF Schema <https://www.w3.org/TR/rdf11-schema/>`, rdfs:, http://www.w3.org/2000/01/rdf-schema#
-   `FOAF (Friend of a Friend) Vocabulary <http://xmlns.com/foaf/spec/>`_, foaf:, http://xmlns.com/foaf/0.1/
-   `VoID (Vocabulary of Interlinked Datasets) <http://www.w3.org/TR/void/>`_, void:, http://rdfs.org/ns/void#
-   `PAV (Provenance Authoring and Versioning ontology) <https://pav-ontology.github.io/pav/>`_, pav:, http://purl.org/pav/
-   `DCAT (Data Catalog Vocabulary) <https://www.w3.org/TR/vocab-dcat-3/>`_, dcat:, http://www.w3.org/ns/dcat#
-   `PROV-O (PROV ontology) <https://www.w3.org/TR/prov-o/>`_, prov:, http://www.w3.org/ns/prov#
-
+   `DCMI Metadata Terms <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/>`_, dct:, `http://purl.org/dc/terms/ <http://purl.org/dc/terms/>`_
+   `RDF Schema <https://www.w3.org/TR/rdf11-schema/>`_, rdfs:, `http://www.w3.org/2000/01/rdf-schema# <http://www.w3.org/2000/01/rdf-schema#>`_
+   `FOAF (Friend of a Friend) Vocabulary <http://xmlns.com/foaf/spec/>`_, foaf:, `http://xmlns.com/foaf/0.1/ <http://xmlns.com/foaf/0.1/>`_
+   `VoID (Vocabulary of Interlinked Datasets) <http://www.w3.org/TR/void/>`_, void:, `http://rdfs.org/ns/void# <http://rdfs.org/ns/void#>`_
+   `PAV (Provenance Authoring and Versioning ontology) <https://pav-ontology.github.io/pav/>`_, pav:, `http://purl.org/pav/ <http://purl.org/pav/>`_
+   `DCAT (Data Catalog Vocabulary) <https://www.w3.org/TR/vocab-dcat-3/>`_, dcat:, `http://www.w3.org/ns/dcat# <http://www.w3.org/ns/dcat#>`_
+   `PROV-O (PROV ontology) <https://www.w3.org/TR/prov-o/>`_, prov:, `http://www.w3.org/ns/prov# <http://www.w3.org/ns/prov#>`_
 
 Metadata for the Entire Dataset
 -------------------------------
