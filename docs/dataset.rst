@@ -154,7 +154,7 @@ The following properties can be used for each version resource:
        prov:qualifiedRevision ex:revnote-v2 ;
        prov:wasDerivedFrom [
          rdf:value <https://example.go.jp/sample-project/> ;
-         rdf:label "Project Report 2022-2024" .
+         rdfs:label "Project Report 2022-2024" .
        ] .
 
    ex:revnote-v2 a prov:Revision ;
@@ -179,6 +179,16 @@ The value of ``prov:qualifiedRevision`` may contain the following properties:
    ``rdf:type``, ``prov:Revision``
    ``rdfs:comment``, Description of the revision
    ``rdfs:seeAlso``, URI with more details on the revision (if available)
+
+Source Information
+^^^^^^^^^^^^^^^^^^
+
+The ``prov:wasDerivedFrom`` property, assigned to a dataset version resource, can be used to represent source information.
+By describing the value of this property as a blank node with the structure shown below, the source of a published dataset can be explicitly indicated.
+This method can also be used to provide attribution required by licenses such as CC-BY.
+
+The resource used as the value of ``prov:wasDerivedFrom`` (typically assumed to be a blank node) should be assigned at least two properties: ``rdf:value`` and ``rdfs:label``.
+The ``rdf:value`` property should contain the URI of the source, while ``rdfs:label`` should provide the name of the source (a human-readable label).
 
 License Information
 -------------------
